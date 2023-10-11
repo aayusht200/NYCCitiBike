@@ -1,3 +1,5 @@
+🚲 Exploring NYC Citi Bike Journeys with Data Analysis 🏙️
+
 In our latest data analysis project, we delved into the world of NYC Citi Bike journeys to uncover fascinating insights into the city's mobility patterns. Here's what we found:
 
  
