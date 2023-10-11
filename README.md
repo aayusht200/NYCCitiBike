@@ -77,4 +77,5 @@ Understanding the most frequently used start and end stations, along with their 
  
 
 Stay tuned for more fascinating insights from our data analysis projects! 📊🚴‍♂️ #DataAnalysis #UrbanMobility #NYCCitiBike #BigQuery #DataVisualization
-Report Link https://lookerstudio.google.com/s/iTqGND1TSaI
+Report Link [[https://lookerstudio.google.com/s/iTqGND1TSaI](https://lookerstudio.google.com/reporting/76621ca9-4dc4-418d-a257-7abb710ff678/page/tEnnC?s=iTqGND1TSaI)
+](https://lookerstudio.google.com/s/gnTsLG4RFGE)https://lookerstudio.google.com/s/gnTsLG4RFGE
