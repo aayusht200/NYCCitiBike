@@ -1,0 +1,26 @@
+SELECT
+  *
+FROM (
+  SELECT
+    DISTINCT bikeid,
+    SUM(tripduration) tripduration,
+    start_station_id
+  FROM
+    bigquery-public-data.new_york_citibike.citibike_trips
+  GROUP BY
+    bikeid,
+    start_station_id
+  ORDER BY
+    tripduration DESC
+  LIMIT
+    10) AS intial
+ JOIN
+  bigquery-public-data.new_york_citibike.citibike_trips secondry
+ON
+  intial.bikeid=secondry.bikeid
+WHERE
+  secondry.bikeid IS NOT NULL
+
+order by secondry.tripduration desc
+LIMIT
+  10
