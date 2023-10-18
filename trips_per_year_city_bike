@@ -1,0 +1,13 @@
+SELECT
+  EXTRACT(year
+  FROM
+    starttime) AS year,
+  COUNT(*) AS total_trips
+FROM
+  bigquery-public-data.new_york_citibike.citibike_trips
+GROUP BY
+  year
+HAVING
+  year>0
+ORDER BY
+  year
