@@ -1,0 +1,6 @@
+SELECT
+ station_id,
+ num_bikes_available,
+ (select AVG(num_bikes_available) from bigquery-public-data.new_york_citibike.citibike_stations) as avg_num_bikes_available
+FROM
+  bigquery-public-data.new_york_citibike.citibike_stations order by num_bikes_available desc
