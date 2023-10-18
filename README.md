@@ -62,7 +62,17 @@ We also identified the stations where bike journeys most frequently conclude, pr
 
 10. E 17 St & Broadway: A total of 332,302,810 seconds were spent on trips ending at this station.
 
- 
+Annual Bike Usage
+Beyond station insights, we also examined the annual bike usage throughout the years:
+
+2013: 5,037,185 bike journeys
+2014: 8,081,216 bike journeys
+2015: 9,937,969 bike journeys
+2016: 10,262,649 bike journeys
+2017: 14,118,669 bike journeys
+2018: 5,671,033 bike journeys
+
+The analysis also revealed that the average number of bikes available at stations is 14, providing crucial information for both riders and the city's transportation infrastructure.
 
 Technology Used and Data Visualization
 
